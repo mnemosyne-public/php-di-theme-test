@@ -1,0 +1,18 @@
+<!doctype html>
+<html {{ languageAttributes }}>
+    {{ head|raw }}
+    <body>
+        <div class='wrapper' id='wrapper'>
+            <div class='{{ classnames }}' id='page'>
+                {{ header|raw }}
+                <main class='main' id='main'>
+                    {{ blocks|raw }}
+                </main>
+                {{ footer|raw }}
+                {{ modals|raw }}
+            </div>
+        </div>
+        {{ scripts|raw }}
+        {{ wp_footer|raw }}
+    </body>
+</html>
